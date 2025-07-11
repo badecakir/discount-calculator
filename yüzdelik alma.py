@@ -1,0 +1,5 @@
+#Yüzdelik alma Write your code here :-)
+ucret = int(input("What is the price of the product?"))
+indirim = int(input("How much discount has been applied?"))
+sonucret = ucret - (ucret * indirim / 100)
+print("The price of the product is: ",sonucret)
